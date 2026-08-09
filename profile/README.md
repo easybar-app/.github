@@ -39,7 +39,7 @@ upgrades, verification, and removal.
 | [`docs`](https://github.com/easybar-app/docs)                       | Maintain and publish the documentation at easybar.dev           |
 | [`homebrew-tap`](https://github.com/easybar-app/homebrew-tap)       | Install EasyBar, its helper agents, and WiFiSnitch via Homebrew |
 | [`widgets`](https://github.com/easybar-app/widgets)                 | Browse and contribute official Lua widgets and libraries        |
-| [`widget-registry`](https://github.com/easybar-app/widget-registry) | Resolve package releases through the official discovery index   |
+| [`registry`](https://github.com/easybar-app/registry)               | Resolve package releases through the official discovery index   |
 | [`widget-template`](https://github.com/easybar-app/widget-template) | Create, test, and release a standalone EasyBar widget           |
 
 ## Contribute

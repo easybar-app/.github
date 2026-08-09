@@ -33,13 +33,13 @@ upgrades, verification, and removal.
 
 ## Projects
 
-| Repository                                                          | Purpose                                                 |
-| ------------------------------------------------------------------- | ------------------------------------------------------- |
-| [`easybar`](https://github.com/easybar-app/easybar)                 | The EasyBar app, CLI, Lua runtime, and documentation    |
-| [`widgets`](https://github.com/easybar-app/widgets)                 | Official installable Lua widgets and reusable libraries |
-| [`widget-registry`](https://github.com/easybar-app/widget-registry) | Package discovery and immutable release metadata        |
-| [`widget-template`](https://github.com/easybar-app/widget-template) | Starting point for developing and releasing a widget    |
-| [`homebrew-tap`](https://github.com/easybar-app/homebrew-tap)       | Homebrew distribution for EasyBar and its helper agents |
+| Project                                                             | Use it to                                                       |
+| ------------------------------------------------------------------- | --------------------------------------------------------------- |
+| [`easybar`](https://github.com/easybar-app/easybar)                 | Build the app, CLI, Lua runtime, themes, and documentation      |
+| [`homebrew-tap`](https://github.com/easybar-app/homebrew-tap)       | Install EasyBar, its helper agents, and WiFiSnitch via Homebrew |
+| [`widgets`](https://github.com/easybar-app/widgets)                 | Browse and contribute official Lua widgets and libraries        |
+| [`widget-registry`](https://github.com/easybar-app/widget-registry) | Resolve package releases through the official discovery index   |
+| [`widget-template`](https://github.com/easybar-app/widget-template) | Create, test, and release a standalone EasyBar widget           |
 
 ## Contribute
 

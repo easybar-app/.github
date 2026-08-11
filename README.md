@@ -10,3 +10,7 @@ The organization overview is rendered from [`profile/README.md`](profile/README.
 Keep the profile concise and direct visitors to [easybar.dev](https://easybar.dev) for detailed
 documentation. Repository names, installation commands, and contribution links should remain in
 sync with the EasyBar repositories.
+
+## License
+
+Licensed under the [Apache License 2.0](./LICENSE).

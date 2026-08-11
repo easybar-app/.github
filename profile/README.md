@@ -51,4 +51,4 @@ open -a EasyBar
 - [Development](https://easybar.dev/internals/development/)
 
 EasyBar is open source under the
-[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+[Apache License 2.0](https://github.com/easybar-app/.github/blob/main/LICENSE).

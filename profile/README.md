@@ -7,20 +7,21 @@
 <h1 align="center">EasyBar</h1>
 
 <p align="center">
-  A lightweight, scriptable macOS status bar built with SwiftUI and Lua.
+  Lightweight, scriptable macOS menu bars built with SwiftUI and Lua.
 </p>
 
 <p align="center">
   <a href="https://easybar.dev">Documentation</a> ·
-  <a href="https://easybar.dev/getting-started/quick-start/">Quick start</a> ·
-  <a href="https://easybar.dev/lua/overview/">Lua widgets</a> ·
+  <a href="https://easybar.dev/products/">Choose a product</a> ·
+  <a href="https://easybar.dev/widget-store/catalog/">Widget Store</a> ·
   <a href="https://github.com/easybar-app/easybar/issues">Issues</a>
 </p>
 
-EasyBar combines native macOS widgets with a Lua runtime, installable widget packages, a shared
-inbox, themes, AeroSpace integration, and a command-line interface for automation and diagnostics.
+EasyBar provides a customizable full-width bar with native and Lua widgets. EasyBar Native keeps the
+normal macOS menu bar and hosts Lua widgets as individual menu-bar items. Both use the same Lua API
+and official widget packages.
 
-## Install
+## Install EasyBar
 
 ```sh
 brew tap easybar-app/tap
@@ -28,26 +29,26 @@ brew install --cask easybar-app/tap/easybar
 open -a EasyBar
 ```
 
-See the [installation guide](https://easybar.dev/getting-started/installation/) for requirements,
-upgrades, verification, and removal.
-
 ## Projects
 
-| Project                                                             | Use it to                                                       |
-| ------------------------------------------------------------------- | --------------------------------------------------------------- |
-| [`easybar`](https://github.com/easybar-app/easybar)                 | Build the app, CLI, Lua runtime, and themes                     |
-| [`docs`](https://github.com/easybar-app/docs)                       | Maintain and publish the documentation at easybar.dev           |
-| [`homebrew-tap`](https://github.com/easybar-app/homebrew-tap)       | Install EasyBar, its helper agents, and WiFiSnitch via Homebrew |
-| [`widgets`](https://github.com/easybar-app/widgets)                 | Browse and contribute official Lua widgets and libraries        |
-| [`registry`](https://github.com/easybar-app/registry)               | Resolve package releases through the official discovery index   |
-| [`widget-template`](https://github.com/easybar-app/widget-template) | Create, test, and release a standalone EasyBar widget           |
+| Project                                                             | Purpose                                        |
+| ------------------------------------------------------------------- | ---------------------------------------------- |
+| [`easybar`](https://github.com/easybar-app/easybar)                 | Customizable full-width macOS bar              |
+| [`easybar-native`](https://github.com/easybar-app/easybar-native)   | Lua widgets in the normal macOS menu bar       |
+| [`easybar-kit`](https://github.com/easybar-app/easybar-kit)         | Shared Swift and Lua widget platform           |
+| [`widgets`](https://github.com/easybar-app/widgets)                 | Official Lua widgets and libraries             |
+| [`registry`](https://github.com/easybar-app/registry)               | Official package discovery index               |
+| [`widget-template`](https://github.com/easybar-app/widget-template) | Starting point for standalone widget packages  |
+| [`docs`](https://github.com/easybar-app/docs)                       | Unified documentation published at easybar.dev |
+| [`homebrew-tap`](https://github.com/easybar-app/homebrew-tap)       | Homebrew distribution for EasyBar products     |
 
-## Contribute
+## Documentation
 
-- Read the [development guide](https://easybar.dev/internals/development/) to contribute to EasyBar.
-- Use the [widget template](https://github.com/easybar-app/widget-template) to start a package.
-- Follow the [widget contribution guide](https://easybar.dev/lua/guides/contributing-widget/) to
-  propose an official widget.
+- [EasyBar quick start](https://easybar.dev/products/easybar/quick-start/)
+- [EasyBar Native quick start](https://easybar.dev/products/easybar-native/quick-start/)
+- [Lua widgets](https://easybar.dev/lua/overview/)
+- [Create and contribute packages](https://easybar.dev/widget-store/create-and-contribute/)
+- [Development](https://easybar.dev/internals/development/)
 
 EasyBar is open source under the
-[Apache License 2.0](https://github.com/easybar-app/easybar/blob/main/LICENSE).
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).

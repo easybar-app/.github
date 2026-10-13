@@ -46,7 +46,7 @@ open -a EasyBar
 
 - [EasyBar quick start](https://easybar.dev/products/easybar/quick-start/)
 - [EasyBar Native quick start](https://easybar.dev/products/easybar-native/quick-start/)
-- [Lua widgets](https://easybar.dev/lua/overview/)
+- [Lua widgets](https://easybar.dev/lua/)
 - [Create and contribute packages](https://easybar.dev/widget-store/create-and-contribute/)
 - [Development](https://easybar.dev/internals/development/)
 
